@@ -3,6 +3,7 @@ import google.generativeai as genai
 
 st.title("🧘 Mental Health Support Chatbot 💬")
 st.subheader("Let's Talk and Feel Better Together")
+st.subheader("By Thatchaphan Samphansompoch")
 
 # Capture Gemini API Key
 gemini_api_key = st.text_input("Gemini API Key: ", placeholder="Type your API Key here...", type="password")
