@@ -39,7 +39,7 @@ for role, message in st.session_state.chat_history:
         st.chat_message("user").text(message)
 
 # Capture user input using chat input
-user_input = st.chat_input("Type your message here...")
+user_input = st.chat_input("Type your feeling here...")
 
 # Process user input and generate AI response
 if user_input:
